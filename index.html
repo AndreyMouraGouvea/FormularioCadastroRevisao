@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Formulário</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+</head>
+
+<body>
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-2">
+				<img src="img/curriculo.png" id="curriculo">
+			</div>
+			<div class="col-sm-8 offset-2">
+				<div class="row">
+					<h1 id="titletop"> CADASTRO DE CURRÍCULO </h1>
+				</div>
+				<div class="row">
+					<div class="col-sm-10 offset-2">
+						<!-- Início Formulário -->
+						<form>
+							<fieldset>Dados Pessoais</fieldset>
+								<label for="nome"></label>
+								<input type="text" name="nome" id="nome" required="" placeholder="Nome Completo">
+								<!-- Data Mask, para ficar de tal forma. -->
+								<label for="data"></label>
+								<input type="date" name="data" id="data" required="" placeholder="Data de Nascimento">
+								<!--  -->
+								<label for="logradouro"></label>
+								<input type="text" name="logradouro" id="logradouro" required="" placeholder="Logradouro">
+								<!-- Escrever entre as tags que deixa o texto para cima ou para embaixo -->
+								<label for="rg"></label>
+								<input type="number" name="rg" id="rg" required="" placeholder="RG">
+								<!-- Validação CPF -->
+								<label for="cpf"></label>
+								<input type="text"  name="cpf" id="cpf" required="" placeholder="CPF">
+								<!--  -->
+								<label for="status"></label>
+								<select name="status">
+									<option disabled="">Selecione</option>
+									<option>SOLTEIRO(A)</option>
+									<option>NAMORANDO</option>
+									<option>CASADO(A)</option>
+								</select>
+								<!--  -->
+								<fieldset>Contatos</fieldset>
+								<label for="email"></label>
+								<input type="email" name="email" id="email" required="" placeholder="Email">
+								<!--  -->
+								<label for="ddd"></label>
+								<input type="number" name="ddd" id="ddd" required="" placeholder="DDD">
+								<!--  -->
+								<label for="phone"></label>
+								<input type="number" name="phone" id="phone" required="" placeholder="Telefone">
+								<!--  -->
+								<fieldset>Tem filhos?</fieldset>
+								<label for="son"></label>
+								<input type="radio" name="son" value="Sim">Sim
+								<label for="son"></label>
+								<input type="radio" name="son" value="Nao">Não
+								<!--  -->
+								<fieldset>Carteira de Habilitação</fieldset>
+								<label for="cnh"></label>
+								<input type="radio" name="cnh" value="A" checked>A
+								<label for="cnh"></label>
+								<input type="radio" name="cnh" value="B">B
+								<!--  -->
+						</form>
+						<!-- Button Submit -->
+						<button type="submit" class="btn btn-red" id="button">Cadastrar</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+<!-- https://www.blogson.com.br/como-formatar-campos-de-cpf-cep-telefone-e-moeda-com-jquery-jmask/ -->
+
+
+	</div>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
