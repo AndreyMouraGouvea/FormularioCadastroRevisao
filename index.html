@@ -23,7 +23,7 @@
 				<img src="img/curriculo.png" id="curriculo">
 			</div>
 			<!--  -->
-
+<!-- 8 / 2 -->
 				<div class="col-sm-8 offset-2" id="titulo">
 					<div class="row">
 						<h1 id="titletop"> CADASTRO DE CURRÍCULO </h1>
@@ -72,28 +72,29 @@
 									<input type="email" name="email" id="email" required="">
 								</fieldset>
 								<fieldset>
-									<label for="email">Email</label>
+									<label for="email" id="email1">Email</label>
 								</fieldset>
-								<!--  -->
+								<!-- CONTATOS -->
 								<fieldset>
-									<input type="number" name="ddd" id="ddd" required="">
+									<label id="completo">Contatos</label>
+									<input type="number" name="ddd" id="dddphone" required="">
 									<input type="number" name="phone" id="phone" required="">
 								</fieldset>
 								<fieldset>
-									<label for="ddd">DDD</label>
-									<label for="phone">Telefone</label>
+									<label for="ddd" id="dddphone1">DDD</label>
+									<label for="phone" id="phone1">Telefone</label>
 								</fieldset>
 								<!--  -->
 								<fieldset>
-
+									<label id="completo">Tem Filhos?</label>
 									<input type="radio" name="son" value="Sim" id="sim">Sim<br>
 									<input type="radio" name="son" value="Nao" id="nao">Não<br>
 									<label for="son"></label>
 								<!--  -->
-
-									<input type="radio" name="cnh" value="A" checked>A<br>
+								<label id="carteira">Carteira de Habilitação?</label>	
+									<input type="radio" name="cnh" value="A" checked id="opcaoa">A<br>
 									<label for="cnh"></label>
-									<input type="radio" name="cnh" value="B">B<br>
+									<input type="radio" name="cnh" value="B" id="opcaob">B<br>
 									<label for="cnh"></label>
 								</fieldset>
 							</form>
@@ -101,8 +102,11 @@
 							<button type="submit" class="btn btn-red" id="button">Cadastrar</button>
 						</div>
 					</div>
-		</div>
-	</div>
+				</div>
+					<div class="col-sm-2 offset-8">
+					<img src="img/logo.png" alt="logo" id="logo">
+					</div>
+			</div>
 
 
 

@@ -41,6 +41,9 @@ html{
 
 }
 /* INICIO GAMBIARRA-  delete ## */
+/* GAMBIARRA DELETE! */
+/* ###############======########## */
+/* => => => => => => => */
 #completo{
 	padding-right: 5%;
 }
@@ -89,21 +92,52 @@ html{
 	margin-left: 14%;
 	margin-bottom: 1%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* EMAIL ALINHADO */
+#email{
+	width: 27.5vw;
+	margin-left: 14%;
+}
+#email1{
+	margin-left: 14%;
+}
+/* AJUSTAR DDD E TELEFONE  */
+/* BASE DO NOME COMPLETO E DATA DE NASCIMENTO */
+#dddphone, #phone{
+	width: 12vw;
+} 
+#dddphone{
+margin-left: 3.5%;
+}
+#phone{
+	width: 12vw;
+	margin-left: 5%;
+}
+/* Descrições DDD e PHONE alinhados */
+#dddphone1,#phone1{
+	margin-left: 14%;
+}
+#phone1{
+	margin-left: 21%;
+}
+/* => => => => => => => */
+#sim{
+	margin-left: 2%;
+}
+#nao{
+	margin-left: 13.8%;
+}
+#carteira{
+	margin-left: 37%;
+}
+#opcaob{
+	margin-left: 50.9%;
+}
+#logo{
+	width: 20vw;
+	margin-left: 80%;
+	margin-top: -90%;
+	z-index: 99;
+}
 
 input{
 	background-color: #e5e5e5;
@@ -113,9 +147,7 @@ input{
 input[type="radio"]{
 	background-color: #57b846;
 }
-#sim{
-	color: #57b846;
-}
+
 #button{
 	font-size: 1.2em;
     background: #ff4b5a;
