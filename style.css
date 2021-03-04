@@ -1,7 +1,116 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #ecec75
+}
+/* container and html to full color LOL */
+.container-fluid{
+	background-color: #ecec75
+}
+html{
+	background-color: #ecec75
+}
 #curriculo{
-	width: 20vw;
+	width: 15vw;
+}
+#workspace{
+	background-color: white;
+	color: black;
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.2);;
+	border-radius: 5px;
+
+
+}
+#titletop{
+	margin: 0 auto;
+	font-size: 35px;
+	padding: 10px;
+}
+#space{
+	margin-top: 5%;
+}
+#titulo{
+	color: white;
+	background-color: #1a1a1a;
+	margin-top: 5%;
+	/* WTF? Left p direita?? */
+	margin-left: 18%;
+	border-radius: 5px;
+
+}
+#completo{
+	padding-right: 5%;
+}
+#data{
+	margin-left: 5%;
+}
+/* Aumentar Tamanho Input Nome */
+#nome, #data{
+	width: 12vw;
+}
+/* Ajustar label de descrição */
+#nome1, #data1{
+	/* margin-left: 14%; */
+	/* display: flex;
+	justify-content: ; */
+
 }
 
-*br{
-	height: 90vh;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+input{
+	background-color: #e5e5e5;
+	border-radius: 5px;
+	padding: 0.2em;
 }
+input[type="radio"]{
+	background-color: #57b846;
+}
+#sim{
+	color: #57b846;
+}
+#button{
+	font-size: 1.2em;
+    background: #ff4b5a;
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 1.5em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    /* position: absolute; */
+	margin-left: 15%;
+    top: 90%;
+    left: 50%;
+    /* margin-right: -50%; */
+    transform: translate(-50%,-50%);
+}
+.button:hover{
+	background: #ff4b5a;
+	box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+	text-shadow: none;
+   }
+   /* Elementos de classe botão e de tag <select>
+   Deixar o cursor em forma de "mão"ao realizar o click */
+   .button, select{
+	   cursor: pointer;
+   }

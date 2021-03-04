@@ -22,90 +22,86 @@
 			<div class="col-sm-2">
 				<img src="img/curriculo.png" id="curriculo">
 			</div>
-			<div class="col-sm-8 offset-2" id="titulo">
-				<div class="row">
-					<h1 id="titletop"> CADASTRO DE CURRÍCULO </h1>
-				</div>
-				<div class="row">
-					<div class="col-sm-12">
-						<!-- Início Formulário -->
-						<form>
-							<fieldset>
-								<label id="dados">Dados Pessoais</label>
-								<input type="text" name="nome" id="nome" required="" placeholder="Nome Completo">
-								<input type="date" name="data" id="data" required="" placeholder="Data de Nascimento">
-							</fieldset>
-							<fieldset>
-								<label for="nome">Nome Completo</label>
-								<label for="data">Data de Nascimento</label>
-							</fieldset>
-							<!--  -->
-							<fieldset>
-								<input type="text" name="logradouro" id="logradouro" required="" placeholder="Logradouro">
-							</fieldset>
-							<fieldset>
-								<label for="logradouro">Logradouro</label>
-							</fieldset>
-							<!--  -->
-							<fieldset>
-								<input type="number" name="rg" id="rg" required="" placeholder="RG">
-								<input type="text"  name="cpf" id="cpf" required="" placeholder="CPF">
-							</fieldset>
-							<fieldset>
-								<label for="rg">RG</label>
-								<label for="cpf">CPF</label>
-							</fieldset>
-							<!--  -->
-							<fieldset>
-								<select name="status">
-									<option disabled="">Selecione</option>
-									<option>SOLTEIRO(A)</option>
-									<option>NAMORANDO</option>
-									<option>CASADO(A)</option>
-								</select>
-							</fieldset>
-							<fieldset>
-								<label for="status">Estado Civil</label>
-							</fieldset>
-							<!--  -->
-							<fieldset>
-								<label id="contatos">Contatos</label>
-								<input type="email" name="email" id="email" required="" placeholder="Email">
-							</fieldset>
-							<fieldset>
-								<label for="email">Email</label>
-							</fieldset>
-							<!--  -->
-							<fieldset>
-								<input type="number" name="ddd" id="ddd" required="" placeholder="DDD">
-								<input type="number" name="phone" id="phone" required="" placeholder="Telefone">
-							</fieldset>
-							<fieldset>
-								<label for="ddd">DDD</label>
-								<label for="phone">Telefone</label>
-							</fieldset>
-							<!--  -->
-							<fieldset>
-								<label>Tem filhos?<label>
-								<label for="son"></label>
-								<input type="radio" name="son" value="Sim">Sim
-								<label for="son"></label>
-								<input type="radio" name="son" value="Nao">Não
-							<!--  -->
-								<label>Carteira de Habilitação<label>
-								<label for="cnh"></label>
-								<input type="radio" name="cnh" value="A" checked>A
-								<label for="cnh"></label>
-								<input type="radio" name="cnh" value="B">B
-							</fieldset>
-						</form>
-						<!-- Button Submit -->
-						<button type="submit" class="btn btn-red" id="button">Cadastrar</button>
-					</div>
-				</div>
-			</div>
-		</div>
+			<!--  -->
 
+				<div class="col-sm-8 offset-2" id="titulo">
+					<div class="row">
+						<h1 id="titletop"> CADASTRO DE CURRÍCULO </h1>
+					</div>
+					<div class="row">
+						<div class="col-sm-12" id="workspace">
+							<!-- Início Formulário -->
+							<form>
+								<fieldset>
+									<label id="completo">Dados Pessoais</label>
+									<input type="text" name="nome" id="nome" required="">
+									<input type="date" name="data" id="data" required="">
+								</fieldset>
+								<fieldset>
+									<label for="nome" id="nome1">Nome Completo</label>
+									<label for="data" id="data1">Data de Nascimento</label>
+								</fieldset>
+								<!--  -->
+								<fieldset>
+									<input type="text" name="logradouro" id="logradouro" required="">
+								</fieldset>
+								<fieldset>
+									<label for="logradouro">Logradouro</label>
+								</fieldset>
+								<!--  -->
+								<fieldset>
+									<input type="number" name="rg" id="rg" required="">
+									<input type="text"  name="cpf" id="cpf" required="" >
+								</fieldset>
+								<fieldset>
+									<label for="rg">RG</label>
+									<label for="cpf">CPF</label>
+								</fieldset>
+								<!--  -->
+								<fieldset>
+									<select name="status">
+										<option selected disabled value="">Selecione</option>
+										<option>SOLTEIRO(A)</option>
+										<option>NAMORANDO</option>
+										<option>CASADO(A)</option>
+									</select>
+								</fieldset>
+								<!--  -->
+								<fieldset>
+									<input type="email" name="email" id="email" required="">
+								</fieldset>
+								<fieldset>
+									<label for="email">Email</label>
+								</fieldset>
+								<!--  -->
+								<fieldset>
+									<input type="number" name="ddd" id="ddd" required="">
+									<input type="number" name="phone" id="phone" required="">
+								</fieldset>
+								<fieldset>
+									<label for="ddd">DDD</label>
+									<label for="phone">Telefone</label>
+								</fieldset>
+								<!--  -->
+								<fieldset>
+
+									<input type="radio" name="son" value="Sim" id="sim">Sim<br>
+									<input type="radio" name="son" value="Nao" id="nao">Não<br>
+									<label for="son"></label>
+								<!--  -->
+
+									<input type="radio" name="cnh" value="A" checked>A<br>
+									<label for="cnh"></label>
+									<input type="radio" name="cnh" value="B">B<br>
+									<label for="cnh"></label>
+								</fieldset>
+							</form>
+							<!-- Button Submit -->
+							<button type="submit" class="btn btn-red" id="button">Cadastrar</button>
+						</div>
+					</div>
+		</div>
+	</div>
 
 
 
