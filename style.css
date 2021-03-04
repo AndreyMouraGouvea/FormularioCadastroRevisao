@@ -40,6 +40,7 @@ html{
 	border-radius: 5px;
 
 }
+/* INICIO GAMBIARRA-  delete ## */
 #completo{
 	padding-right: 5%;
 }
@@ -52,15 +53,42 @@ html{
 }
 /* Ajustar label de descrição */
 #nome1, #data1{
-	/* margin-left: 14%; */
+	margin-left: 14%;
 	/* display: flex;
 	justify-content: ; */
 
 }
-
-
-
-
+/* Dobro da width do nome e data - preencher totalmente */
+#logradouro{
+	width: 27.5vw;
+	margin-left: 14%;
+}
+#logradouro1{
+	margin-left: 14%;
+}
+/* RG E CPF - MARGIN LEFT - ALINHAMENTO COM LABEL DE CIMA */
+#rg{
+	margin-left: 14%;
+	width: 12vw;
+}
+#cpf{
+	width: 12vw;
+	/* separar os dois inputs */
+	margin-left: 5%; 
+}
+/* Ajustar label da descrição */
+#rg1, #cpf1{
+	margin-left: 14%;
+}
+/* Gambiarra LOL */
+#cpf1{
+	margin-left: 22%;
+}
+/* Select Alinhado */
+.status{
+	margin-left: 14%;
+	margin-bottom: 1%;
+}
 
 
 

@@ -46,20 +46,21 @@
 									<input type="text" name="logradouro" id="logradouro" required="">
 								</fieldset>
 								<fieldset>
-									<label for="logradouro">Logradouro</label>
+									<label for="logradouro" id="logradouro1">Logradouro</label>
 								</fieldset>
-								<!--  -->
+								<!-- COMO VERIFICAR RG E CPF? -->
+								<!-- pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" -->
 								<fieldset>
 									<input type="number" name="rg" id="rg" required="">
-									<input type="text"  name="cpf" id="cpf" required="" >
+									<input type="text"  name="cpf" id="cpf" required="" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}">
 								</fieldset>
 								<fieldset>
-									<label for="rg">RG</label>
-									<label for="cpf">CPF</label>
+									<label for="rg" id="rg1">RG</label>
+									<label for="cpf" id="cpf1">CPF</label>
 								</fieldset>
 								<!--  -->
 								<fieldset>
-									<select name="status">
+									<select name="status" class="status">
 										<option selected disabled value="">Selecione</option>
 										<option>SOLTEIRO(A)</option>
 										<option>NAMORANDO</option>
